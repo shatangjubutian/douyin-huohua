@@ -1,8 +1,7 @@
 {
   "friends": ["好友A", "好友B"],
   "messages": [
-    {"type": "text", "value": "今天也要开心呀 😊"},
-    {"type": "sticker", "value": "比心"}
+    {"type": "text", "value": " 1 "},
   ],
   "stickers": {
     "比心": {"label": "比心", "category": "常用", "fallback_index": 3}
