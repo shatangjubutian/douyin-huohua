@@ -1,13 +1,32 @@
-
-  
-  {
-    "friends": ["🌈举杯邀酒"],
-    "messages": [
-    {"type": "text", "value": "1"},
-    {"type": "sticker", "value": "比心"}
+{
+  "task_id": "daily-streak",
+  "timezone": "Asia/Shanghai",
+  "targets": [
+    {
+      "name": "宅腐容",
+      "messages": [
+        {
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "🌈举杯邀酒",
+      "messages": [
+        {
+          "type": "text",
+          "value": "1"
+        }
+      ]
+    }
   ],
-  "stickers": {
-    "比心": {"label": "比心", "category": "常用", "fallback_index": 3}
+  "send_interval_seconds": {
+    "min": 3,
+    "max": 8
   },
-  "send_interval_seconds": {"min": 3, "max": 8}
+  "continue_on_error": true,
+  "prevent_duplicates": false,
+  "target_open_retries": 1,
+  "target_open_timeout_seconds": 15
 }
