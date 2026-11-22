@@ -1,7 +1,7 @@
 {
   "friends": ["好友A", "好友B"],
   "messages": [
-    {"type": "text", "value": " 1 "},
+    {"type": "text", "value": "水～"},
   ],
   "stickers": {
     "比心": {"label": "比心", "category": "常用", "fallback_index": 3}
