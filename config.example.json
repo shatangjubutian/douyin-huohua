@@ -3,24 +3,24 @@
   "timezone": "Asia/Shanghai",
   "targets": [
     {
-      "name": "宅腐容",
-      "messages": [
-        {
-          "type": "text",
-          "value": "1"
-        }
-      ]
-    },
-    {
       "name": "🌈举杯邀酒",
       "messages": [
         {
           "type": "text",
           "value": "1"
+        },
+        {
+          "type": "sticker",
+          "value": "嗨"
         }
       ]
     }
   ],
+  "stickers": {
+    "嗨": {
+      "label": "嗨"
+    }
+  },
   "send_interval_seconds": {
     "min": 3,
     "max": 8
